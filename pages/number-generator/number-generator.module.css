@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.main__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.title {
+  color: #000000;
+}
+
+.link-text:hover {
+  text-decoration: underline;
+  color: #0070f3;
+  cursor: pointer;
+}
+
+.button--blue {
+  background-color: #0070f3;
+  color: white;
+  font-size: 2rem;
+  font-family: Menlo;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  border: none;
+  padding: 1rem;
+  min-width: 300px;
+  cursor: pointer;
+}
+
+.button--blue:hover {
+  background-color: #105eb8;
+  font-weight: 800;
+}
